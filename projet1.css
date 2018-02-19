@@ -1,0 +1,78 @@
+ @font-face{
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?iefix') format('eot'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+* {
+  margin: auto;
+}
+
+
+.robotest {
+    display: none;
+}
+
+body {
+  background-color: #303030;
+  color: #FFF;
+  font-family: 'MyWebFont', Bellota, sans-serif;
+  background: linear-gradient(
+  rgba(86, 192, 224, 0.95),
+  rgba(48, 48, 48, 0.95)
+  ),url("carte.jpeg");
+ background-size:cover;
+ background-repeat:no-repeat;
+
+}
+
+header {
+  padding: 30px;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 2px 2px #303030;
+}
+
+h6 {
+  color: #FFF;
+  text-align: center;
+}
+
+abbr {
+  color: #FF3F4D;
+}
+
+fieldset {
+  border-color: #303030;
+  width: 50%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+  padding: 15px;
+  color: #FFF;
+  background-color: #303030;
+}
+
+.photo {
+  float: right;
+
+}
+form input[type="submit"]
+{
+    border: #15C5BD 1px solid;
+    background-color: #C7053D;
+    width: 20%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+form input[type="submit"]:hover
+{
+    background-color: #8BBF4A;
+    cursor: pointer;
+}
